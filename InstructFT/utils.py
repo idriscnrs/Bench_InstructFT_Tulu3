@@ -6,7 +6,6 @@ import json
 import os
 import torch
 import torch.distributed as dist
-from jupyterquiz import display_quiz
 from torch.utils.data import DataLoader
 from torch.utils.data.distributed import DistributedSampler
 from transformers import PreTrainedTokenizer
